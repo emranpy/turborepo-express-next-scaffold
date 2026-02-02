@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    
+    // 1. Change this to false so you can use .js extensions in your imports
+    "allowImportingTsExtensions": false, 
+    
+    // 2. Change this to false so you can actually build your project later
+    "noEmit": false, 
+
+    "target": "esnext",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "outDir": "./dist" // 3. Good practice to keep your compiled files separate
+  }
+}
